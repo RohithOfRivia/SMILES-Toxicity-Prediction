@@ -46,7 +46,7 @@ Note: The notebook outputs the cv file with an index column, Id, Predicted. If t
 
 ### Google Collab
 
-To run the [notebook](https://www.kaggle.com/x2022gvu/x2022-gvu-best-score), you can do the following:
+To run the notebook, you can do the following:
 
 1. Download a copy of the [notebook](https://www.kaggle.com/x2022gvu/x2022-gvu-best-score) from the options.
 2. Upload the notebook to Google [Collab](https://colab.research.google.com/).
