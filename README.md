@@ -12,7 +12,8 @@ The notebook performs the following steps to prepare the data for modeling:
 
 1. Load the dataset and pass through the pipeline to get all descriptors and morgan fingerprints for each compound
 2. Performs data cleaning
-3. 
+3. Model training
+4. Writes all predictions made on test data to a csv file 
 
 ## Modeling
 
@@ -47,7 +48,7 @@ Note: The notebook outputs the cv file with an index column, Id, Predicted. If t
 
 To run the [notebook](https://www.kaggle.com/x2022gvu/x2022-gvu-best-score), you can do the following:
 
-1. Download a copy of the [notebook] (https://www.kaggle.com/x2022gvu/x2022-gvu-best-score) from the options.
+1. Download a copy of the [notebook](https://www.kaggle.com/x2022gvu/x2022-gvu-best-score) from the options.
 2. Upload the notebook to Google [Collab](https://colab.research.google.com/).
 3. Scroll down to the last section called "Saviong predictions for submission", delete or comment the content in the second cell in that section, which has one line of code 0 "res.to _csv".
 4. Uncomment every line starting at the line "from google.colab...
