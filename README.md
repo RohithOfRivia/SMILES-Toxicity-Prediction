@@ -40,6 +40,7 @@ The notebook requires the following libraries to be installed:
 [This](https://www.kaggle.com/x2022gvu/x2022-gvu-best-score) container for the notebook hosted in Kaggle can be run using Docker.
 
 Option 1: Go to Logs section to find the latest container image, and then run image using docker.
+
 Option 2: Download Notebook from the link and run all cells to get the cv file for predictions as output.
 
 Note: The notebook outputs the cv file with an index column, Id, Predicted. If the identical submission cv file is required, the index column has to be dropped. This can be easily done by passing "index-False* argument in the 2nd cell of code in the Saving predictions section.
