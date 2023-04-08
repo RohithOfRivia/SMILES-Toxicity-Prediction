@@ -4,7 +4,7 @@ This notebook contains code for predicting the toxicity of chemical compounds us
 
 ## Dataset
 
-The dataset used for this project is the "Tox21" dataset, which contains chemical compounds represented as SMILES strings, along with their respective toxicity labels. The dataset was obtained from [insert source here].
+The dataset used for this project is the The Toxicity Prediction Challenge II dataset, which contains chemical compounds represented as SMILES strings, along with their respective assay ID and toxicity labels. The dataset was obtained from [[Kaggle](https://www.kaggle.com/competitions/the-toxicity-prediction-challenge-ii/overview)].
 
 ## Data Preparation
 
