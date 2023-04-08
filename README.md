@@ -10,11 +10,9 @@ The dataset used for this project is the The Toxicity Prediction Challenge II da
 
 The notebook performs the following steps to prepare the data for modeling:
 
-1. Load the dataset into a Pandas DataFrame using the 'read_csv()' function.
-2. Perform exploratory data analysis (EDA) to gain insights into the dataset.
-3. Clean the dataset by removing duplicates, compounds with missing values, and compounds with non-binary toxicity labels.
-4. Encode the SMILES strings using the RDKit library to convert them into molecular fingerprints.
-5. Split the dataset into training and testing sets using the scikit-learn library's 'train_test_split()' function.
+1. Load the dataset and pass through the pipeline to get all descriptors and morgan fingerprints for each compound
+2. Performs data cleaning
+3. 
 
 ## Modeling
 
