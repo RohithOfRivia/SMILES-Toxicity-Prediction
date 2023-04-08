@@ -34,9 +34,21 @@ The notebook requires the following libraries to be installed:
 
 ## Usage
 
-## Google Collab
+### Kaggle Container
 
-To run the notebook, you can do the following:
+[This](https://www.kaggle.com/x2022gvu/x2022-gvu-best-score) container for the notebook hosted in Kaggle can be run using Docker.
 
-1. Upload the notebook to Gogle [Collab](https://www.kaggle.com/competitions/the-toxicity-prediction-challenge-ii/overview](https://colab.research.google.com/).
-2. Select Runtime, and then select Run all in the dropdown menu. A csv file containing all the predicitons made by the model on the test data will be downloaded directly on the browser after all cells finish executing. 
+Option 1: Go to Logs section to find the latest container image, and then run image using docker.
+Option 2: Download Notebook from the link and run all cells to get the cv file for predictions as output.
+
+Note: The notebook outputs the cv file with an index column, Id, Predicted. If the identical submission cv file is required, the index column has to be dropped. This can be easily done by passing "index-False* argument in the 2nd cell of code in the Saving predictions section.
+
+### Google Collab
+
+To run the [notebook](https://www.kaggle.com/x2022gvu/x2022-gvu-best-score), you can do the following:
+
+1. Download a copy of the [notebook] (https://www.kaggle.com/x2022gvu/x2022-gvu-best-score) from the options.
+2. Upload the notebook to Google [Collab](https://colab.research.google.com/).
+3. Scroll down to the last section called "Saviong predictions for submission", delete or comment the content in the second cell in that section, which has one line of code 0 "res.to _csv".
+4. Uncomment every line starting at the line "from google.colab...
+5. Select Runtime from the options menu at the top, and then select Run all in the dropdown menu. A csv file containing all the predicitons made by the model on the test data will be downloaded directly through the browser after all cells finish executing.
