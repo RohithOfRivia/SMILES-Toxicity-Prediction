@@ -18,10 +18,8 @@ The notebook performs the following steps to prepare the data for modeling:
 
 The notebook uses a Random Forest Classifier as the machine learning model to predict the toxicity of chemical compounds. The following steps are performed for modeling:
 
-1. Train the Random Forest Classifier on the training set using the scikit-learn library's 'RandomForestClassifier()' function.
-2. Tune the hyperparameters of the Random Forest Classifier using Grid Search Cross-Validation.
-3. Evaluate the performance of the Random Forest Classifier on the testing set using several performance metrics, including accuracy, precision, recall, F1-score, and area under the receiver operating characteristic curve (AUC-ROC).
-4. Interpret the Random Forest Classifier model by visualizing the feature importance using the Matplotlib library.
+1. Train the XGBoost Classifier Classifier on the training set using the xgboost library's 'XGBClassifier()' function. Hyperparameters: n_estimators=700, max_depth=10
+2. Evaluate the performance of the model on the testing set using F1-score performance metric.
 
 ## Requirements
 
@@ -32,9 +30,13 @@ The notebook requires the following libraries to be installed:
 - RDKit
 - Matplotlib
 - Jupyter
+- xgboost
 
 ## Usage
 
+## Google Collab
+
 To run the notebook, you can do the following:
 
-1. Install the required libraries using pip:
+1. Upload the notebook to Gogle [Collab](https://www.kaggle.com/competitions/the-toxicity-prediction-challenge-ii/overview](https://colab.research.google.com/).
+2. Select Runtime, and then select Run all in the dropdown menu. A csv file containing all the predicitons made by the model on the test data will be downloaded directly on the browser after all cells finish executing. 
