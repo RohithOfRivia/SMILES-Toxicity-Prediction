@@ -4,7 +4,7 @@ This notebook contains code for predicting the toxicity of chemical compounds us
 
 ## Dataset
 
-The dataset used for this project is the The Toxicity Prediction Challenge II dataset, which contains chemical compounds represented as SMILES strings, along with their respective assay ID and toxicity labels. The dataset was obtained from [Kaggle](https://www.kaggle.com/competitions/the-toxicity-prediction-challenge-ii/overview).
+The dataset used for this project is the The Toxicity Prediction Challenge II dataset, which contains chemical compounds represented as SMILES strings, along with their respective assay ID and toxicity labels. The dataset was obtained from [Kaggle](https://www.kaggle.com/competitions/the-toxicity-prediction-challenge-ii/overview). This is a private dataset created from experiments conducted in a laboratory.
 
 ## Data Preparation
 
